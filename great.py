@@ -1,5 +1,4 @@
 # your code goes here
-try:
 	a=int(input())
 	b=int(input())
 	c=int(input())
@@ -9,5 +8,3 @@ try:
 		print(b)
 	else:
 		print(c)
-except ValueError:
-	print("invalid")
