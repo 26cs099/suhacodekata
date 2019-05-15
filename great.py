@@ -10,4 +10,4 @@ try:
 	else:
 		print(c)
 except ValueError:
-	print("invalid")
+	print("Invalid")
