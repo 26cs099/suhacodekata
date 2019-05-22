@@ -1,6 +1,6 @@
-N=int(input())
-K=int(input())
+a=int(input())
+b=int(input())
 if(b>0):
-	print(N**K)
+	print(a**b)
 else:
 	print(Invalid)
