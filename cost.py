@@ -1,9 +1,9 @@
 # your code goes here
-m,n=map(str,input().split())
-cost=abs(len(m)-len(n))
-for j in range(len(m)):
-	if(len(m)==1 and m[j] in n):
+s,m=map(str,input().split())
+cost=abs(len(s)-len(m))
+for k in range(len(s)):
+	if(len(s)==1 and s[j] in m):
 		break
-	if(m[j] != n[j]):
+	if(s[j] != m[j]):
 		cost+=1
 print(cost)
